@@ -1,3 +1,8 @@
+:root   {
+    --color-font-p: #283136; 
+    --color-background-header: #EEEEEE;
+    --color-background-main: white;
+}
 @font-face  {
     font-family: "Roboto";
     src: url('../fonts/roboto.woff') format('woff'),
@@ -21,12 +26,13 @@
 } 
 body    {
     font-family: 'Roboto';
+    background-color: var(--color-background-main);
 }
 p   {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #283136;
+    color: var(--color-font-p);
     ;
 }
 h3  {
@@ -40,5 +46,5 @@ a.button    {
 }
 header,
 .advantages  {
-    background: #EEEEEE;
+    background: var(--color-background-header);
 }
