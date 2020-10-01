@@ -1,0 +1,44 @@
+@font-face  {
+    font-family: "Roboto";
+    src: url('../fonts/roboto.woff') format('woff'),
+    url('../fonts/roboto.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face  {
+    font-family: "Roboto";
+    src: url('../fonts/robotobold.woff') format('woff'),
+    url('../fonts/robotobold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face  {
+    font-family: "Roboto";
+    src: url('../fonts/robotomedium.woff') format('woff'),
+    url('../fonts/robotomedium.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+} 
+body    {
+    font-family: 'Roboto';
+}
+p   {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #283136;
+    ;
+}
+h3  {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+a.button    {
+    text-transform: uppercase;
+}
+header,
+.advantages  {
+    background: #EEEEEE;
+}
