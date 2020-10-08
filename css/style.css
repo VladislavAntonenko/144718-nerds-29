@@ -82,3 +82,8 @@ header,
 .advantages  {
     background: var(--color-background-header);
 }
+.social b   {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
