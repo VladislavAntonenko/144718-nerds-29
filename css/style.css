@@ -38,6 +38,15 @@ body    {
 .site-navigation {
     list-style: none;
 }
+.site-navigation a:hover  {
+    color: #FB565A;
+}
+.site-navigation a:active   {
+    color: rgba(0, 0, 0, 0.3);
+}
+.site-navigation a:focus    {
+    color: #000000 ;
+}
 .button {
     color: #ffffff;
 }
@@ -56,7 +65,7 @@ body    {
 }
 .button {
     text-decoration: none;
-    border: 1px solid #FB565A;
+    border: 1px solid rgba(255,255,255,0);
     border-radius: 5px;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -67,6 +76,41 @@ body    {
 }
 .more_button    {
     margin-top: 50px;
+}
+.buy_button_1:active,
+.buy_button_2:active,
+.buy_button_3:active, 
+.more_button:active,
+.write_us:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+.write_us:active,
+.more_button:active {
+    background-color: #D7373B;
+}
+.write_us:hover,
+.more_button:hover,
+.buy_button_1:hover   {
+    background-color: #E74246;
+}
+
+.buy_button_2 {
+    background-color: #00CA74;
+}
+.buy_button_2:hover     {
+    background-color: #00BC6C;
+}
+.buy_button_2:active    {
+    background-color: #00AA62;
+}
+.buy_button_3 {
+    background-color: #EFC84A;
+}
+.buy_button_3:hover     {
+    background-color: #EAB534;
+}
+.buy_button_3:active    {
+    background-color: #E5A722;
 }
 .products h3,
 .skills h3  {
@@ -81,6 +125,119 @@ a.button    {
 header,
 .advantages  {
     background: var(--color-background-header);
+}
+.partners img   {
+    opacity: 30%;
+    vertical-align: middle;
+}
+.partners img:hover{
+    opacity: 100%;
+    
+}
+.partners img:active   {
+    opacity: 30%;
+}
+.social a:nth-child(1){
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(225,225,225,1); 
+    border-radius: 50%;
+    background-image: url(../img/vk-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(1):hover{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(231,66,70,1); 
+    border-radius: 50%;
+    background-image: url(../img/vk-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(1):active{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(215,55,59,1); 
+    border-radius: 50%;
+    background-image: url(../img/vk-icon.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(2){
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(225,225,225,1); 
+    border-radius: 50%;
+    background-image: url(../img/fb-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(2):hover{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(231,66,70,1); 
+    border-radius: 50%;
+    background-image: url(../img/fb-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(2):active{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(215,55,59,1); 
+    border-radius: 50%;
+    background-image: url(../img/fb-icon.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(3){
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(225,225,225,1); 
+    border-radius: 50%;
+    background-image: url(../img/insta-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(3):hover{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(231,66,70,1); 
+    border-radius: 50%;
+    background-image: url(../img/insta-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social a:nth-child(3):active{
+    display: inline-block;
+    margin: 20px;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(215,55,59,1); 
+    border-radius: 50%;
+    background-image: url(../img/insta-icon.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .social b   {
     font-weight: 700;
