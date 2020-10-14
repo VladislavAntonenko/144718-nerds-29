@@ -28,6 +28,9 @@ body    {
     font-family: 'Roboto';
     background-color: var(--color-background-main);
 }
+.main-header img:active {
+    opacity: 30%;
+}
 .site-navigation a  {
     color: #000000;   
     text-transform: uppercase;
@@ -44,8 +47,9 @@ body    {
 .site-navigation a:active   {
     color: rgba(0, 0, 0, 0.3);
 }
-.site-navigation a:focus    {
-    color: #000000 ;
+
+.active {
+    color: #000000;
 }
 .button {
     color: #ffffff;
@@ -62,6 +66,12 @@ body    {
 }
 .site-navigation a  {
     text-decoration: none;
+}
+a.active {
+    /* text-decoration: underline;
+    text-decoration-color:  #FB565A; */
+    border-bottom: 2px solid #FB565A;
+    padding-bottom: 5px;
 }
 .button {
     text-decoration: none;
